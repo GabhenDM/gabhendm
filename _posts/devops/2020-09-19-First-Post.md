@@ -6,8 +6,9 @@ tags: [DevOps]     # TAG names should always be lowercase
 ---
 
 Hello Friend.
+Seja bem-vindo ao meu blog pessoal. 
 
-Seja bem-vindo ao meu blog pessoal, aqui irei postar diferentes conteudos (Guias, tutoriais, reviews e textos curtos) relacionados as areas de DevOps, Site Reliability Engineering e Segurança da Informação em geral. 
+Aqui irei postar diferentes conteúdos: guias, tutoriais, reviews e textos curtos, todos relacionados as áreas de DevOps, Site Reliability Engineering e Segurança da Informação em geral.
 
 Espero que gostem!
 
