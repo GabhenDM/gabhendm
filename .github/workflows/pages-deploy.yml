@@ -75,3 +75,17 @@ jobs:
       - name: Deploy
         run: |
           bash tools/deploy.sh
+  slackNotification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@master
+      env:
+        SLACK_CHANNEL: blog-ci
+        SLACK_COLOR: '#3278BD'
+        SLACK_MESSAGE: 'Blog atualizado!! :rocket:'
+        SLACK_TITLE: Deploy do Blog
+        SLACK_USERNAME: BlogCI
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}             
